@@ -45,7 +45,7 @@ outputs:
     description: Name of the branch code was pushed into
 runs:
   using: docker
-  image: docker://devopsinfra/action-commit-push:v0.9.2
+  image: docker://zohebs341/action-commit-push@main
   env:
     COMMIT_TOKEN: ${{ inputs.github_token }}
 branding:
